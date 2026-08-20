@@ -9,7 +9,7 @@ local MONITOR_SCALE = 1.0  -- Text size on monitors (1.0 = normal, 1.5 or 2.0 = 
 -- Connect to ME Bridge
 local me
 while not me do
-    me = peripheral.find("meBridge")
+    me = peripheral.find("me_bridge")
     if not me then
         term.clear()
         term.setCursorPos(1, 1)
@@ -185,8 +185,8 @@ while true do
     
     -- Fetch current energy stats
     local currentUsage, err1 = me.getEnergyUsage()
-    local storedEnergy, err2 = me.getEnergyStorage()
-    local maxEnergy, err3 = me.getMaxEnergyStorage()
+    local storedEnergy, err2 = me.getStoredEnergy()
+    local maxEnergy, err3 = me.getEnergyCapacity()
     
     if not currentUsage or not storedEnergy or not maxEnergy then
         local errMsg = "ME Error: " .. tostring(err1 or err2 or err3 or "Unknown")
