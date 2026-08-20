@@ -50,7 +50,7 @@ Monitors disk capacity, active cell distributions, and network database statisti
 * **Storage Breakdown**: Displays stored unique types, used bytes, and max capacities for **Items** (rounded to 0 decimal places), **Fluids**, and **Mekanism Gases** (rounded to 2 decimal places).
 * **I/O Area Chart**: Draws a rolling area chart showing read/write transaction speed (items/fluids per second) over time.
 #### To install:
-`wget https://raw.githubusercontent.com/ZinebaBoi/ComputerCraft-AE2-Monitor-Suite/refs/heads/main/disk.lua`
+Run this command in the computer: `wget https://raw.githubusercontent.com/ZinebaBoi/ComputerCraft-AE2-Monitor-Suite/refs/heads/main/disk.lua`
   
 
 ### 2. `cpus.lua` — Crafting CPU Monitor
@@ -60,28 +60,28 @@ Tracks crafting CPUs, active tasks, memory usage, and recipe database status.
 * **Recipe DB**: Displays total encoded recipes in your pattern provider storage (e.g., `Recipes: 412 item, 32 fluid`).
 * **Pagination**: Automatically paginates if you have more CPUs than can fit on the monitor.
 #### To install:
-`wget https://raw.githubusercontent.com/ZinebaBoi/ComputerCraft-AE2-Monitor-Suite/refs/heads/main/cpus.lua`
+Run this command in the computer: `wget https://raw.githubusercontent.com/ZinebaBoi/ComputerCraft-AE2-Monitor-Suite/refs/heads/main/cpus.lua`
 
 ### 3. `energy.lua` — ME Energy Monitor
 Keeps a close eye on your network power grids.
 * **Horizontal Bar**: Displays a progress bar of stored AE energy compared to maximum buffer.
 * **Power Graph**: Plots a shaded history area chart showing network power consumption rates with dynamic min/max labels.
 #### To install:
-`wget https://raw.githubusercontent.com/ZinebaBoi/ComputerCraft-AE2-Monitor-Suite/refs/heads/main/energy.lua`
+Run this command in the computer: `wget https://raw.githubusercontent.com/ZinebaBoi/ComputerCraft-AE2-Monitor-Suite/refs/heads/main/energy.lua`
 
 ### 4. `inputs.lua` — Production Rate Monitor
 Tracks production rates of items inside the system to analyze factory output.
 * **EMA Smoothing**: Tracks changes in item quantities smoothed by an Exponential Moving Average (EMA) over a 1-minute window.
 * **Production Bars**: Renders vertical, colored progress bars at the bottom of the screen to visualize rates.
 #### To install:
-`wget https://raw.githubusercontent.com/ZinebaBoi/ComputerCraft-AE2-Monitor-Suite/refs/heads/main/inputs.lua`
+Run this command in the computer: `wget https://raw.githubusercontent.com/ZinebaBoi/ComputerCraft-AE2-Monitor-Suite/refs/heads/main/inputs.lua`
 
 ### 5. `stored.lua` — Stored Items Monitor
 Displays a list of the top 10 items stored in the network.
 * **Noise Filter**: Ignores common garbage block items (like Cobblestone or Netherrack) so you can focus on valuable assets.
 * **Visual Gauges**: Includes vertical level bars representing quantities.
 #### To install:
-`wget https://raw.githubusercontent.com/ZinebaBoi/ComputerCraft-AE2-Monitor-Suite/refs/heads/main/stored.lua`
+Run this command in the computer: `wget https://raw.githubusercontent.com/ZinebaBoi/ComputerCraft-AE2-Monitor-Suite/refs/heads/main/stored.lua`
 
 
 ---
