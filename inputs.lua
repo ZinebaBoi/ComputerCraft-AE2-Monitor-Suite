@@ -34,7 +34,7 @@ local BAR_COLORS = {
 -- Connect to ME Bridge
 local me
 while not me do
-    me = peripheral.find("meBridge")
+    me = peripheral.find("me_bridge")
     if not me then
         term.clear()
         term.setCursorPos(1, 1)
@@ -220,7 +220,7 @@ while true do
     device.write(title)
 
     -- Fetch current items from the ME Bridge
-    local currentItems, err = me.listItems()
+    local currentItems, err = me.getItems()
     local currentTime = os.clock()
     
     if not currentItems then
