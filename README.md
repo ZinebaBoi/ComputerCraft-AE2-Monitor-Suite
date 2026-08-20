@@ -2,9 +2,11 @@
 
 <img src="images/banner.png" alt="Banner">
 
-A fix for the collection of helpful monitoring scripts for Applied Energistics 2 (AE2) networks using **ComputerCraft/CC: Tweaked** and **Advanced Peripherals** in Minecraft. Displays useful info on ME Cell IO, crafting CPUs, energy usage, network item inputs, and top stored items.
+A fix for 1.21.1+ and AP version 0.7+ for the collection of helpful monitoring scripts for Applied Energistics 2 (AE2) networks using **ComputerCraft/CC: Tweaked** and **Advanced Peripherals** in Minecraft. Displays useful info on ME Cell IO, crafting CPUs, energy usage, network item inputs, and top stored items.
 
-Designed to fit on a standard **3x3 Advanced Monitor** (approx. 39x19 text scale 1.0). Tested in ATM10 7.3 (AE2 19.2.17 and Advanced Peripherals version 0.7.62b).
+This will also work for older versions some day, as the new ME bridge system will be backported.
+
+Designed to fit on a standard **3x3 Advanced Monitor** (approx. 39x19 text scale 1.0). Tested in ATM10 7.3 (1.21.1, AE2 19.2.17 and Advanced Peripherals version 0.7.62b).
 
 ---
 
