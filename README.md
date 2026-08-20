@@ -6,7 +6,7 @@ A fix for 1.21.1+ and AP version 0.7+ for the collection of helpful monitoring s
 
 This will also work for older versions some day, as the new ME bridge system will be backported.
 
-Designed to fit on a standard **3x3 Advanced Monitor** (approx. 39x19 text scale 1.0). Tested in ATM10 7.3 (1.21.1, AE2 19.2.17 and Advanced Peripherals 0.7.62b).
+Designed to fit on a standard **3x3 Advanced Monitor** (approx. 39x19 text scale 1.0), but will work on larger monitors. Tested in ATM10 7.3 (1.21.1, AE2 19.2.17 and Advanced Peripherals 0.7.62b).
 
 ---
 
