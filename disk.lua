@@ -9,7 +9,7 @@ local MONITOR_SCALE = 1.0       -- Text size on monitors (1.0 = normal, 1.5 or 2
 -- Connect to ME Bridge
 local me
 while not me do
-    me = peripheral.find("meBridge")
+    me = peripheral.find("me_bridge")
     if not me then
         term.clear()
         term.setCursorPos(1, 1)
@@ -232,9 +232,9 @@ while true do
     blitLine(device, 2, w, "", colors.white, colors.black)
     
     -- Fetch storage quantities, cells, and Mekanism gases
-    local cells, errC = me.listCells()
-    local items, errI = me.listItems()
-    local fluids, errF = me.listFluid()
+    local cells, errC = me.getCells()
+    local items, errI = me.getItems()
+    local fluids, errF = me.getFluids()
     
     local gases, errG
     pcall(function() gases, errG = me.listGas() end)
